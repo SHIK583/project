@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	   <title> MY ENTERTAINMENT WORLD</title>
+	   <meta  name ="viewport" content="width = device-width , initial-scale=1.0">
+	   <link rel ="stylesheet" href =" entertainment.css">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div id="hamburger" class="sidenav">
+  	  	      <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times; </a>
+		      <a href="home.html"> HOLLYWOOD</a>
+		      <a href="mystory.html"> BOLLYWOOD</a>
+		      <a href="education.html"> POLISH</a>
+		      <a href="protfolio.html"> FRENCH</a>
+		      <a href="contact.html"> Contact Us</a>
+		      
+      </div>
+
+      <!-- use any element to open  the sidenav-->
+       <span style="font-size: 30px; cursor: pointer" onclick = "opennav()">&#9776;</span>
+		       <!-- javascript style-->
+			       <script>
+			       	    function opennav()
+			       	    {
+			       		     document.getElementById("hamburger").style.display ="block";
+			       		}
+
+			       		function closenav()
+			       		{
+			       			document.getElementById("hamburger").style.display="none";
+			       		}
+			       </script>
+		<div class="container header">
+			<img src="images/download.jpg" class="logo">
+			<a href="#" class ="header-btn"> <i class="fa fa-users"></i>
+                                       ACCOUNT</a>
+		</div>
+		<div class ="movie_details">
+			<div class="row">
+				<div class="col-md-6 left-box">
+					<h1> ROBOT 2.0</h1>
+					<p>Watch the most errotic and romantic movies which is only availble on the netflix, amazon and other channel only on the movies123.pro &#128526; </p>
+					<p> Cast :</p>
+					<div class="casting">
+						<img src="images/1.jpg" title="Rajnikhanth">
+						<img src="images/2.jpg" title="AKSHAY KUMAR">
+						<img src="images/3.jpg" title="AMY JAKSON">
+						<img src="images/4.jpg" title="PRANEETI CHOPRA">
+						<img src="images/5.jpg" title="SALMAN KHAN">
+						<img src="images/6.jpg" title="hritik rosan">
+					</div>
+					<a href="#"> <i class="fa fa-play" ></i>
+                    WATCH NOW </a>
+					<a href="#" class="download-btn" ><i class="fa fa-arrow-down" ></i>
+                                 DOWNLOAD</a> 
+				</div>
+				<div class="col-md-6">
+					<img src="images/sample.jpg" class ="movie-img">
+				</div>
+			</div>
+		</div>
+		<div class="container series">
+			<h3> Popular movies</h3>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-6"><img src="images/pictures1.jpg"></div>
+						<div class="col-6"><img src="images/pictures2.jpg"></div>
+					</div>
+					</div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-6"><img src="images/pictures3.jpg"></div>
+						<div class="col-6"><img src="images/pictures4.jpg"></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-6"><img src="images/pictures5.jpg"></div>
+						<div class="col-6"><img src="images/pictures6.jpg"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container footer">
+			<h4> JOIN US TO WATCH MORE &#128519;</h4>
+			<a href="#" class="fa fa-facebook" id="simple"></a>
+			<a href="#" class="fa fa-twitter" id="simple"></a>
+			<a href="#" class="fa fa-google" id="simple"></a>
+			<a href="#" class="fa fa-linkedin" id="simple"></a>
+			<a href="#" class="fa fa-youtube" id="simple"></a>
+			<a href="#" class="fa fa-instagram"id="simple"></a>
+		</div>
+	</body>
+</html>

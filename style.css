@@ -1,0 +1,60 @@
+ #form
+{
+	width:45%;
+	margin:auto;
+	display:block;
+	font-size: 20px;
+	font-family: lato,san-serif;
+	color:white;
+}
+h1
+{
+	
+	font-size:24px;
+	padding: 20px 1em;
+	font-weight: bold;
+	cursor:pointer;
+	text-align: center;
+	color:black;
+}
+fieldset
+{
+	border-radius: 15px 15px 15px 15px;
+	background:url("images/background.jpg") no-repeat center;
+	background-size: 95% 90%;
+}
+label
+{
+	font-weight: bold;
+	display:inline-block;
+	margin:5px;
+}
+input[type=date],[type=text],[type=number],select
+{
+	background: #fff;
+	border:1px solid #000;
+	border-radius: 2px;
+	border-width: 1px;
+	color:#3645bd;
+	font-size:15px;
+	margin:5px;
+	padding:12px 12px;
+	dispaly:inline-block;
+}
+input[type=radio].g
+{
+	margin-left: 35px;
+}
+input[type=submit]
+{
+	color:#555;
+	padding:10px 30px;
+	text-align:center;
+	font-size:24px;
+	margin:12px 14px;
+	cursor:pointer;
+	border:1px solid #000;
+	border-radius: 4px;
+	margin-left:230px;
+	background-color: black;
+}
